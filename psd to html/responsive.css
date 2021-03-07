@@ -1,0 +1,48 @@
+/*tablet layout8*/
+
+@media only screen and (min-width: 200px) and (max-width:991px) {
+    .social_area {max-width: 465px;}
+    .inner_menu{background: none;min-height: auto;}
+    .inner_menu::after {display: none;}
+    .mean-container .mean-nav { margin-top: 0;width: 80%;}
+    .inner_header {padding: 20px 0;}
+    #slider_area { margin-top: 0;}
+    .inner_hero h2 {font-size: 55px;}
+    .child_service .service_text {
+        width: 65%;
+    }
+
+ /*mobile layout8*/
+@media only screen and (min-width: 200px) and (max-width:480px) {
+    .mini_manu { width: 100%;
+        margin-bottom: 10px;}
+    .mini_manu ul,.social_area ul {text-align: center;}
+    .search_area{float: none;width: 250px;margin: 0 30% 0 auto;}
+    .logo_area {float: none;width: 240px; margin: 0 auto 10px auto;text-align: center;}
+    .social_area ul li {display: inline-block;margin: 0 5px;}
+    .inner_hero h2 {font-size: 25px;}
+    .inner_hero {overflow: hidden; padding-bottom: 20px;}
+    #work_area,#footer_area{padding: 20px 0;}
+    .child_work { width: 92%;}
+    .child_footer {width: 96%;}
+    .child_blog a {float: left;}
+    .left_copyright { width: 100%;margin-bottom: 10px;}
+    .right_copyright { text-align: left; width: 100%;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
